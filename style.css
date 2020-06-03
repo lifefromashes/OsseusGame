@@ -1,5 +1,28 @@
+
+.navbar-brand span {
+	font-size:2rem;
+	line-height:1.2;
+	font-weight: 200;
+	display:inline-block;
+	vertical-align:middle;
+	padding:0 0 0 15px;
+}
+.navbar-brand b {
+	display:block;
+	font-size:50%;
+	line-height:1;
+}
+.navbar-nav {
+	margin-left:auto;
+}
+
+.nav{
+  display: block;
+}
+
 h1{
-    font-color: #66BFBF;
+    padding-top: 80px;
+    color: #222831;
     font-size: 5.62rem;
     margin: 50px auto 0 auto;
     font-family: 'Shadows Into Light', cursive;
@@ -8,9 +31,9 @@ h1{
   body {
     /*background: #F3904F;  /* fallback for old browsers */
     /*background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: #304352;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #ececec;  /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     margin: 0;
     text-align: center;
@@ -20,7 +43,7 @@ h1{
   }
 
   hr {
-    border: dotted #EAF6F6 6px;
+    border: dotted #222831 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -29,6 +52,7 @@ h1{
   p {
     line-height: 2;
     font-size: 1.5rem;
+    color: #f2a365
   }
 
   .intro {
@@ -37,7 +61,7 @@ h1{
   }
 
   h2 {
-    color: #f7f7f7;
+    color: #30475e;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
